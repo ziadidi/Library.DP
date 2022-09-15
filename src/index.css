@@ -806,6 +806,10 @@ select {
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 455px) {
 
+  html {
+    overflow-x: hidden;
+  }
+
   h1 {
      font-size: large;
   }
